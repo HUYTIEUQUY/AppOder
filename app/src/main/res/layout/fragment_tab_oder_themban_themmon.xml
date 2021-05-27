@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_gd"
+    android:orientation="vertical"
+    android:padding="50dp"
+    tools:context=".Tab_Oder_themban_themmon">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:textColor="@color/xanh"
+        android:textSize="30sp"
+
+        android:layout_marginBottom="80dp"
+        android:text="THÊM MÓN MỚI"
+        android:layout_gravity="center"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:orientation="vertical"
+>
+        <TextView
+            android:id="@+id/txtSoBan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Số Bàn"
+            android:textSize="20sp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Khối lượng/Số lượng :"
+            android:textSize="20sp"/>
+        <EditText
+            android:id="@+id/edtKhoiLuong"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tên hải sản :"
+            android:textSize="20sp"/>
+        <EditText
+            android:id="@+id/edtTenHaiSan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Cách chế biến :"
+            android:textSize="20sp"/>
+        <EditText
+            android:id="@+id/edtCachCheBien"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ghi chú :"
+            android:textSize="20sp"/>
+        <EditText
+            android:id="@+id/edtGhChu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <Button
+            android:id="@+id/btnThemMon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="50dp"
+            android:text="THÊM"/>
+
+
+
+
+    </LinearLayout>
+
+</LinearLayout>

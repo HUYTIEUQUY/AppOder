@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "666056053309",
+    "project_id": "appoder-e981d",
+    "storage_bucket": "appoder-e981d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:666056053309:android:664db03927a61135a35054",
+        "android_client_info": {
+          "package_name": "com.example.appoder"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "666056053309-e3oemsu9lssm36a1qvogv5is48s04g7r.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.appoder",
+            "certificate_hash": "5854a629d14ff62ca4a57949aecf7a8ecb84cb8b"
+          }
+        },
+        {
+          "client_id": "666056053309-8tjruemk7e72u51omufc9sgjlva76dq9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBhZ10aNxwc_QZ-BTGhVnBDnzVQvmcvaBE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "666056053309-8tjruemk7e72u51omufc9sgjlva76dq9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
